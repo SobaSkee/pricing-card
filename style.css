@@ -30,7 +30,8 @@ h2, h4, p {
   height: 400px;
   box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
   border-radius: 5px;
-  / the inner boxes on the bottom are not getting a border radius applied and are breaking out of the main card container, so we must use overflow to hide the parts breaking out of the card container */
+  /* the inner boxes on the bottom are not getting a border radius applied and are breaking out of the main card container, 
+  so we must use overflow to hide the parts breaking out of the card container */
   overflow: hidden;
 }
 
